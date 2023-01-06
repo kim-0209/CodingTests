@@ -7,5 +7,4 @@ public class Ex02 {
 		int num2 = 2;
 		System.out.println(num + num2);
 	}
-
 }
