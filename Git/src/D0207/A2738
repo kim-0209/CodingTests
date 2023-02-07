@@ -1,0 +1,31 @@
+package D0207
+import java.util.Scanner;
+
+public class A2738 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); //스캐너 기능
+        int n = sc.nextInt(); //N값
+        int m = sc.nextInt(); //M값
+        int[][] arr1 = new int[n][m]; //A 행렬
+        int[][] arr2 = new int[n][m]; //B 행렬
+
+        for (int i = 0; i < n; i++) { //A행렬 값
+            for (int j = 0; j < m; j++) {
+                arr1[i][j] = sc.nextInt();
+            }
+        }
+        for (int i = 0; i < n; i++) { //B 행렬 값
+            for (int j = 0; j < m; j++) {
+                arr2[i][j] = sc.nextInt();
+            }
+        }
+
+        for (int i = 0; i < n; i++) { // A + B 행렬 출력 
+            for (int j = 0; j < m; j++) {
+                System.out.print(arr1[i][j]+arr2[i][j]+" ");
+                if(j == m-1) // j가 3번째 값까지 돌았을 때 줄바꿈
+                    System.out.println();
+            }
+        }
+    }
+}
