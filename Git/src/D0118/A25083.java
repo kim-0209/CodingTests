@@ -1,5 +1,12 @@
 package D0118;
 
+//아래 예제와 같이 새싹을 출력하시오.
+//		   ,r'"7
+//r`-_   ,'  ,/
+// \. ". L_r'
+//	`~\/
+//     |
+//     |
 public class A25083 {
 	public static void main(String[] args) {
 
