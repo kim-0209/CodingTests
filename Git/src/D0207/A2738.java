@@ -1,4 +1,4 @@
-package D0207
+package D0207;
 import java.util.Scanner;
 
 public class A2738 {
